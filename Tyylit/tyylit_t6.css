@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main {
+  flex: 70%; 
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.side {
+  flex: 30%; 
+  background-color: white;
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+}
+.header { background-color: #66bba4; padding: 60px; text-align: center; color: white; }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; 
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
