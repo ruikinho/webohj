@@ -1,0 +1,13 @@
+body {
+    background-color: rebeccapurple;
+}
+
+h1 {
+    color: rgb(211, 108, 108);
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
